@@ -18,3 +18,9 @@
     height: 25px;
     background-color: white;
 }
+
+.radio {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

@@ -11,8 +11,13 @@
     <h1 id="title">Temperature Converter</h1>
     <input type = number id='input' />
     <div id="button-container">
-        <button id="ftoc">F to C</button>
-        <button id="ctof">C to F</button>
+        <input type="radio" name="temp" value="ftoc" class='radio' id="radio1">
+            <label for ='radio1'>F to C</label>
+        </input>
+        <input type="radio" name="temp" value="ctof" class=radio id="radio2">
+            <label for ='radio1'>C to F</label>
+        </input>
+
         <button id="submit">Submit</button>
         <button id="clear">Clear</button>
     </div>
